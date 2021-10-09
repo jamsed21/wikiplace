@@ -1,0 +1,17 @@
+ul#results{
+	list-style: none;
+    width: 131px;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+ul#results li a {
+	color: #000;
+    background: #ccc;
+    display: block;
+    text-decoration: none;
+}
+ul#results li a:hover {
+	background: #aaa;
+}

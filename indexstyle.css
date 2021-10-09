@@ -1,0 +1,178 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+   
+    
+   
+   
+    
+}
+.header{
+
+    background-image:linear-gradient(rgba(21, 22, 21, 0.6),rgba(0,0,0,0.6)),url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+nav{
+   
+    flex: 1;
+    text-align: center;
+    padding-right: 10px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+}
+#MenuItems{
+    text-decoration: none;
+
+}
+
+.titile{
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 50px;
+}
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin:auto;
+    padding: 2px;
+}
+
+.form-control{
+    border: 0 !important;
+    border-radius: 30px 0 0 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.icon-position{
+    
+    justify-content: right;
+    text-decoration: none;
+    float: right;
+    margin-left: 40px;
+   
+}
+.media .icon-position a{
+    list-style-type: none;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 30px;
+   
+}
+
+.media .icon-position a:hover{
+    color: #008cff;
+}
+
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 10px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+
+
+/*top places section*/
+
+.features{
+   
+    padding: 50px 0;}
+.p1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Londrina Solid', cursive;
+    color: blue;
+    font-size: 30px;font-weight: bold;padding-left: 10px;margin-top: 10px;font-family: 'Londrina Solid', cursive; color: rgb(240, 237, 104);
+}
+.p2{font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #30336b;text-align: center;margin-top: 69px;margin-left: -40px;}
+.p3{font-size: 17px;font-family: 'Times New Roman', Times, serif;margin-top: 15px;text-align: center;margin-left: -40px;}
+.boxa{width: 1000px;height: 400px;background-size: cover;margin-top: -70px;}
+.ico{color: #0b1c33;size: 60px;padding-left: 20px;}
+.box1{height: 300px;width: 300px;border: 1px black;padding:50px;margin-left: 80px;background-color: wheat;margin-top: 30px;}
+.box2{border: 1px red;height: 370px;background-color: white;margin-top: 100px;}
+.ico:hover{color: brown;}
+.cap{text-align: center;color: black;font-weight: bold;font-size: 15px;}
+.contact{margin-left: 110px;margin-top: 20px;}
+
+.last{background-color:#636e72; height: 50vh;position: relative;margin-top: 40px;box-shadow: 0 0 4px 15px silver;}
+
+.overlay2{position: absolute;width: 100vh;height: 50vh;}
+.l-box{position: relative;top: 30px;left:50px;width: 250px;}
+.l-box2{position: relative;top: 30px;left:150px;width: 250px;}
+.l-box3{position: relative;top: 30px;left:270px;width: 250px;}
+.l-box4{position: relative;top: 30px;left:270px;width: 250px;}
+
+.icon-position{
+    
+    justify-content: right;
+    text-decoration: none;
+    float: right;
+   
+}
+.media .icon-position a{
+    list-style-type: none;
+    padding-top: 1px;
+    color: #fff;
+    font-size: 30px;
+   
+}
+
+.media .icon-position a:hover{
+    color: #008cff;
+}
+
+.i20{height: 180px;}
+.card:hover{transform: scale(1.1);box-shadow: 0 0 5px silver;}
+.b_map{width: 100%;height: 600px;position: absolute;}
+.mapp{position: relative;top: 400px;background-color: whitesmoke;box-shadow: 0 0 12px darkblue;width: 800px;justify-content: center;}
+.he{height: 209px;}
+.ic{margin-top: 400px;justify-content: center;}
+.bor{border:2px solid rgb(241, 196, 15);border-style: dotted;width:50px;height:50px; margin-top:40px;}
+.i_t{margin-left:30px;margin-top:-50px ;padding-left: 40px;}
+.address{width:300px;height:60px; margin-top:20px;text-align: center;}
+.address:hover{transform: scale(1.1);box-shadow: 0 0 10px silver;}
+.slide1{font-size: 60px;margin-top: 500px;color: #b33939;text-shadow: 0 0 3px 4px sienna;}
+.lined{width: 100%;height: 40px;margin-top: 20px;}
+.carbox{height:100vh;width: 100%;}
+
+
